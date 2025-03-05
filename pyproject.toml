@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyoro"
+version = "0.1.0"
+description = "A GameBoy Advanced game recreated in Python"
+authors = ["RedbeanGit <dubois.julien.mail@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyglet = "^2.0.15"
+numpy = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^3.0.3"
+black = "^23.12.1"
+
+[tool.poetry.group.dev.dependencies]
+pillow = "^10.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

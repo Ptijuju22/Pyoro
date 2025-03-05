@@ -1,0 +1,2 @@
+class PyoroNotFoundException(Exception):
+    pass
